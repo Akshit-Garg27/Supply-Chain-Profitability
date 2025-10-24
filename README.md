@@ -1,3 +1,9 @@
+That's a great addition. Including the live link in the README makes the project immediately accessible to anyone reviewing it.
+
+I have updated the "How to Run Locally" section to include a direct link to the deployed application, and renamed the section to reflect that the dashboard is available online.
+
+-----
+
 # Supply Chain Profitability Analysis & Predictive Dashboard
 
 ## Project Overview
@@ -44,7 +50,7 @@ The project follows a structured data science methodology, from data ingestion t
 
 4.  **Simulation & Analysis**
 
-      * **Sensitivity Analysis:** Executed a sensitivity analysis by simulating ±10% changes in key drivers (e.g., Cost Ratio, Price) to measure their elasticity and isolated impact on profitability.
+      * **Sensitivity Analysis:** Executed a sensitivity analysis by simulating $\pm 10\%$ changes in key drivers (e.g., Cost Ratio, Price) to measure their elasticity and isolated impact on profitability.
       * **Scenario Modeling:** Developed three distinct business scenarios (Optimistic, Moderate, Pessimistic) to stress-test the business model against potential market shifts and operational changes.
 
 5.  **Insights & Deployment**
@@ -56,9 +62,9 @@ The project follows a structured data science methodology, from data ingestion t
 
 The analysis and modeling process yielded several critical, high-value insights:
 
-  * **Dominant Profit Drivers:** The analysis definitively identified `Cost Ratio` (54.5% importance) and `Cost Efficiency` (43.7% importance) as the two overwhelming drivers of profitability. Traditional metrics like order volume had a negligible impact, shifting the strategic focus from "selling more" to "selling more efficiently."
-  * **Portfolio Optimization Opportunity:** Discovered that the 'Cosmetics' category, while not the highest revenue generator, delivers the best profit margins. This highlights a significant opportunity for strategic product mix optimization to improve overall portfolio profitability.
-  * **Business Model Resilience:** Both sensitivity and scenario analyses confirmed a highly stable, high-margin business model. Profitability showed minimal volatility even under pessimistic scenarios, indicating strong operational insulation. The primary threat is cost inflation, not demand fluctuation.
+  * **Dominant Profit Drivers:** The analysis definitively identified **Cost Ratio** (54.5% importance) and **Cost Efficiency** (43.7% importance) as the two overwhelming drivers of profitability. Traditional metrics like order volume had a negligible impact, shifting the strategic focus from "selling more" to "selling more efficiently."
+  * **Portfolio Optimization Opportunity:** Discovered that the 'Cosmetics' category, while not the highest revenue generator, delivers the **best profit margins**. This highlights a significant opportunity for strategic product mix optimization to improve overall portfolio profitability.
+  * **Business Model Resilience:** Both sensitivity and scenario analyses confirmed a highly **stable, high-margin** business model. Profitability showed minimal volatility even under pessimistic scenarios, indicating strong operational insulation. The primary threat is cost inflation, not demand fluctuation.
 
 ## Strategic Recommendations
 
@@ -67,15 +73,17 @@ Based on the analysis, the following data-driven strategies are recommended:
 1.  **Prioritize Cost Containment:** Focus on procurement efficiency, supplier negotiation, and logistics optimization, as these actions have the most direct and significant impact on margin.
 2.  **Rebalance Product Portfolio:** Shift marketing and inventory focus toward higher-margin categories (Cosmetics) to improve the profit-per-sale average.
 3.  **Strengthen Supplier Partnerships:** Consolidate volume with high-performing, low-defect suppliers (identified in the analysis) to enhance predictability and reduce cost variance.
-4.  **Focus on Resilience, Not Just Optimization:** Given the existing high margins, the strategic focus should shift from incremental optimization to defensive resilience. This includes supply chain diversification and cost hedging to protect against market shocks.
+4.  **Focus on Resilience, Not Just Optimization:** Given the existing high margins, the strategic focus should shift from incremental optimization to **defensive resilience**. This includes supply chain diversification and cost hedging to protect against market shocks.
 
 ## Technology Stack
 
-  * **Data Analysis & Manipulation:** `pandas`, `numpy`
-  * **Data Visualization:** `matplotlib`, `seaborn`, `plotly` (for interactive plots)
-  * **Machine Learning:** `scikit-learn` (for `RandomForestRegressor`, `train_test_split`, `StandardScaler`)
-  * **Dashboard & Web Framework:** `Streamlit` (for rapid, data-centric web app development)
-  * **Environment:** `Python 3.11+`, `Jupyter Notebook` (for analysis & modeling), `VS Code` (for app development)
+| Layer | Tools / Libraries |
+| :--- | :--- |
+| **Data Analysis & Manipulation** | `pandas`, `numpy` |
+| **Data Visualization** | `matplotlib`, `seaborn`, `plotly` (for interactive plots) |
+| **Machine Learning** | `scikit-learn` (RandomForestRegressor, feature scaling) |
+| **App Framework** | `Streamlit` (for rapid dashboard deployment) |
+| **Environment** | `Python 3.11+`, `Jupyter Notebook`, `VS Code` |
 
 ## Repository Structure
 
@@ -92,9 +100,19 @@ Based on the analysis, the following data-driven strategies are recommended:
 └── README.md                  # Project documentation (this file)
 ```
 
-## How to Run Locally
+## 🌐 Access & Setup
 
-To explore the data or run the interactive dashboard, follow these steps.
+The dashboard is fully deployed online and can also be run locally.
+
+### 1\. Access the Live Dashboard
+
+The interactive application is hosted on Streamlit Cloud and accessible via the link below:
+
+**[Supply Chain Profitability Dashboard](https://supply-chain-profitability-wfuvsg7ksf5xhh2ttgwzep.streamlit.app/)**
+
+### 2\. Run Locally (For Developers)
+
+To examine the code and run the application locally:
 
 1.  **Clone the repository:**
 
@@ -124,6 +142,8 @@ To explore the data or run the interactive dashboard, follow these steps.
     ```
 
     The application will open in your default web browser.
+
+-----
 
 ## Conclusion
 
