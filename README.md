@@ -1,9 +1,3 @@
-That's a great addition. Including the live link in the README makes the project immediately accessible to anyone reviewing it.
-
-I have updated the "How to Run Locally" section to include a direct link to the deployed application, and renamed the section to reflect that the dashboard is available online.
-
------
-
 # Supply Chain Profitability Analysis & Predictive Dashboard
 
 ## Project Overview
